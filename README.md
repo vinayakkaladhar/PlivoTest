@@ -20,7 +20,9 @@ Maven installed
 
 1. Import the pom.XML
 2. Use commands: mvn clean followed by mvn install to install the dependencies
-3. Invoke the testNG.xml
+3. Invoke the testNG.xml from IDE or
+  via terminal: mvn clean test -Dsurefire.suiteXmlFiles=/path/to/testng.xml
+
 xml includes:
 class: BirthdaySurprise
 Methods: willTheSurpriseWork(), surpriseEndsHappily()
