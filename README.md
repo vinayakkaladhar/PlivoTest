@@ -9,6 +9,7 @@ Browser: Chrome
 Language: JAVA
 framework : TestNG
 Build tool: Maven
+OS: MAC
 
 ### Prerequisites
 
@@ -38,11 +39,7 @@ thus making it dynamic.
 
 4.Proper asserts and reporting used to provide a detailed context, can be witnessed in testNG Report - have checked in the same.
 
-5. Have used method names: willTheSurpriseWork() - the scenario in which raj travels to surprise his wife and surpriseEndsHappily() - the scenario in which raj returns back with his wife after the surprise.
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+5.Have used method names: willTheSurpriseWork() - the scenario in which raj travels to surprise his wife and surpriseEndsHappily() - the scenario in which raj returns back with his wife after the surprise.
 
 ## Authors
 
