@@ -25,8 +25,8 @@ public class aws {
             //This code expects that you have AWS credentials set up per:
             // https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/setup-credentials.html
             AWSCredentials credentials = new BasicAWSCredentials(
-                    "AKIAVED3TOST6VZEJCJ7",
-                    "qjQYvL8Q36P62+PTL/iOfoqTTB/uMAHTT/cJ/b33"
+                    "",
+                    ""
             );
 
             AmazonS3 s3client = AmazonS3ClientBuilder
