@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="11" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+    </line>
+    <line>
+      <![CDATA[On landing page: chrome-extension://aicaflgmmblfaneodjfhkilgplnpjmig/index.html]]>
+    </line>
+    <line>
+      <![CDATA[Verified left panel and supportive links existence]]>
+    </line>
+    <line>
+      <![CDATA[Verified default login is: Guest Mode]]>
+    </line>
+    <line>
+      <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+    </line>
+    <line>
+      <![CDATA[Logging in with: Vinayak@mailinator.com]]>
+    </line>
+    <line>
+      <![CDATA[Verified login is not in: Guest Mode]]>
+    </line>
+    <line>
+      <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+    </line>
+    <line>
+      <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+    </line>
+    <line>
+      <![CDATA[Folder: Folder1 created]]>
+    </line>
+    <line>
+      <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+    </line>
+    <line>
+      <![CDATA[Folder: Folder1 created]]>
+    </line>
+    <line>
+      <![CDATA[Folder: Folder2 created]]>
+    </line>
+    <line>
+      <![CDATA[Multiple folders created: Folder count is 2]]>
+    </line>
+    <line>
+      <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+    </line>
+    <line>
+      <![CDATA[Folder: Folder1 created]]>
+    </line>
+    <line>
+      <![CDATA[Board: Board1 added successfully under Folder: Folder1]]>
+    </line>
+    <line>
+      <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+    </line>
+    <line>
+      <![CDATA[Board: Board1 added successfully under Folder: Folder1]]>
+    </line>
+    <line>
+      <![CDATA[Total Board count under Folder: Folder1 is 1]]>
+    </line>
+    <line>
+      <![CDATA[Board: Board2 added successfully under Folder: Folder1]]>
+    </line>
+    <line>
+      <![CDATA[Total Board count under Folder: Folder1 is 2]]>
+    </line>
+    <line>
+      <![CDATA[Board: Board1 added successfully under Folder: Folder2]]>
+    </line>
+    <line>
+      <![CDATA[Total Board count under Folder: Folder2 is 1]]>
+    </line>
+    <line>
+      <![CDATA[Multiple boards created successfully]]>
+    </line>
+    <line>
+      <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+    </line>
+    <line>
+      <![CDATA[Verified Board: Board1folder1 is created and entry count is 0]]>
+    </line>
+    <line>
+      <![CDATA[Opted for duplication of Board: Board1folder1]]>
+    </line>
+    <line>
+      <![CDATA[Verified after duplication board count is 2]]>
+    </line>
+    <line>
+      <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+    </line>
+    <line>
+      <![CDATA[Board: Board1folder1 is created]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Board: Board1folder1]]>
+    </line>
+    <line>
+      <![CDATA[Added Bookmark: http://facebook.com]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Bookmark: http://facebook.com and verified]]>
+    </line>
+    <line>
+      <![CDATA[Verified after adding bookmark - entry count is incremented to 1 for Board:Board1folder1]]>
+    </line>
+    <line>
+      <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+    </line>
+    <line>
+      <![CDATA[Board: Board1folder1 is created]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Board: Board1folder1]]>
+    </line>
+    <line>
+      <![CDATA[Bookmark: http://facebook.com is added]]>
+    </line>
+    <line>
+      <![CDATA[Bookmark: https://www.youtube.com/ is added]]>
+    </line>
+    <line>
+      <![CDATA[Verified after adding multiple bookmarks - entry count is incremented to 2 for Board:Board1folder1]]>
+    </line>
+    <line>
+      <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Board: Board1folder1]]>
+    </line>
+    <line>
+      <![CDATA[Bookmark: http://facebook.com is added]]>
+    </line>
+    <line>
+      <![CDATA[Bookmark: https://www.youtube.com/ is added]]>
+    </line>
+    <line>
+      <![CDATA[Duplicate Bookmark: http://facebook.com is added]]>
+    </line>
+    <line>
+      <![CDATA[Entry count with duplicates is displayed as 3 for Board: Board1folder1]]>
+    </line>
+    <line>
+      <![CDATA[Performing remove duplicate of bookmarks for Board: Board1folder1]]>
+    </line>
+    <line>
+      <![CDATA[Verified after removing duplicate bookmark - entry count is decremented to 2 for Board:Board1folder1]]>
+    </line>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="136300" started-at="2021-01-01T09:22:05 IST" finished-at="2021-01-01T09:24:22 IST">
+    <groups>
+    </groups>
+    <test name="/Users/cb-vinayak/work/selenium/src/test/java/QlearlyFeatures.java" duration-ms="136300" started-at="2021-01-01T09:22:05 IST" finished-at="2021-01-01T09:24:22 IST">
+      <class name="QlearlyFeatures">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="setUp" is-config="true" duration-ms="318" started-at="2021-01-01T09:22:05 IST" finished-at="2021-01-01T09:22:06 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLandingPage()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="verifyLandingPage" duration-ms="203" started-at="2021-01-01T09:22:06 IST" description="Verify the options on the landing page" finished-at="2021-01-01T09:22:06 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[On landing page: chrome-extension://aicaflgmmblfaneodjfhkilgplnpjmig/index.html]]>
+            </line>
+            <line>
+              <![CDATA[Verified left panel and supportive links existence]]>
+            </line>
+            <line>
+              <![CDATA[Verified default login is: Guest Mode]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLandingPage -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="closeDriver" is-config="true" duration-ms="259" started-at="2021-01-01T09:22:06 IST" finished-at="2021-01-01T09:22:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="setUp" is-config="true" duration-ms="5447" started-at="2021-01-01T09:22:06 IST" finished-at="2021-01-01T09:22:12 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAccountCreation()[pri:1, instance:QlearlyFeatures@3e14c16d]" name="verifyAccountCreation" duration-ms="14704" started-at="2021-01-01T09:22:12 IST" description="Verify creation of account" finished-at="2021-01-01T09:22:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logging in with: Vinayak@mailinator.com]]>
+            </line>
+            <line>
+              <![CDATA[Verified login is not in: Guest Mode]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAccountCreation -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="closeDriver" is-config="true" duration-ms="276" started-at="2021-01-01T09:22:26 IST" finished-at="2021-01-01T09:22:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="setUp" is-config="true" duration-ms="5522" started-at="2021-01-01T09:22:27 IST" finished-at="2021-01-01T09:22:32 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyBoardCanBeShared()[pri:2, instance:QlearlyFeatures@3e14c16d]" name="verifyBoardCanBeShared" duration-ms="16390" started-at="2021-01-01T09:22:32 IST" description="Verify board can be shared in public" finished-at="2021-01-01T09:22:48 IST">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org.openqa.selenium.WebDriverException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org.openqa.selenium.WebDriverException
+at java.lang.Class.getDeclaredConstructors0(Native Method)
+at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+at java.lang.Class.getConstructor0(Class.java:3075)
+at java.lang.Class.getConstructor(Class.java:1825)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:195)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+at POM.QlearlyPage.navigateToBoard(QlearlyPage.java:179)
+at QlearlyFeatures.verifyBoardCanBeShared(QlearlyFeatures.java:53)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBoardCanBeShared -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="closeDriver" is-config="true" duration-ms="273" started-at="2021-01-01T09:22:48 IST" finished-at="2021-01-01T09:22:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="setUp" is-config="true" duration-ms="5579" started-at="2021-01-01T09:22:49 IST" finished-at="2021-01-01T09:22:54 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddingFolder()[pri:3, instance:QlearlyFeatures@3e14c16d]" name="verifyAddingFolder" duration-ms="225" started-at="2021-01-01T09:22:54 IST" description="Verify folder creation on qlearly" finished-at="2021-01-01T09:22:55 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Folder: Folder1 created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAddingFolder -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="closeDriver" is-config="true" duration-ms="222" started-at="2021-01-01T09:22:55 IST" finished-at="2021-01-01T09:22:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="setUp" is-config="true" duration-ms="5360" started-at="2021-01-01T09:22:55 IST" finished-at="2021-01-01T09:23:00 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyMultipleFoldersCanBeAddedWithDuplicateNames()[pri:4, instance:QlearlyFeatures@3e14c16d]" name="verifyMultipleFoldersCanBeAddedWithDuplicateNames" duration-ms="409" started-at="2021-01-01T09:23:00 IST" description="Verify multiple folder creation" finished-at="2021-01-01T09:23:01 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Folder: Folder1 created]]>
+            </line>
+            <line>
+              <![CDATA[Folder: Folder2 created]]>
+            </line>
+            <line>
+              <![CDATA[Multiple folders created: Folder count is 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMultipleFoldersCanBeAddedWithDuplicateNames -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="closeDriver" is-config="true" duration-ms="211" started-at="2021-01-01T09:23:01 IST" finished-at="2021-01-01T09:23:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="setUp" is-config="true" duration-ms="5285" started-at="2021-01-01T09:23:01 IST" finished-at="2021-01-01T09:23:06 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyBoardCreation()[pri:5, instance:QlearlyFeatures@3e14c16d]" name="verifyBoardCreation" duration-ms="470" started-at="2021-01-01T09:23:06 IST" description="Verify board creation on qlearly" finished-at="2021-01-01T09:23:06 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Folder: Folder1 created]]>
+            </line>
+            <line>
+              <![CDATA[Board: Board1 added successfully under Folder: Folder1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyBoardCreation -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="closeDriver" is-config="true" duration-ms="210" started-at="2021-01-01T09:23:06 IST" finished-at="2021-01-01T09:23:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="setUp" is-config="true" duration-ms="5270" started-at="2021-01-01T09:23:07 IST" finished-at="2021-01-01T09:23:12 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyMultipleBoardCreation()[pri:6, instance:QlearlyFeatures@3e14c16d]" name="verifyMultipleBoardCreation" duration-ms="1034" started-at="2021-01-01T09:23:12 IST" description="Verify multiple board creation under different folders" finished-at="2021-01-01T09:23:13 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Board: Board1 added successfully under Folder: Folder1]]>
+            </line>
+            <line>
+              <![CDATA[Total Board count under Folder: Folder1 is 1]]>
+            </line>
+            <line>
+              <![CDATA[Board: Board2 added successfully under Folder: Folder1]]>
+            </line>
+            <line>
+              <![CDATA[Total Board count under Folder: Folder1 is 2]]>
+            </line>
+            <line>
+              <![CDATA[Board: Board1 added successfully under Folder: Folder2]]>
+            </line>
+            <line>
+              <![CDATA[Total Board count under Folder: Folder2 is 1]]>
+            </line>
+            <line>
+              <![CDATA[Multiple boards created successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMultipleBoardCreation -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="closeDriver" is-config="true" duration-ms="196" started-at="2021-01-01T09:23:13 IST" finished-at="2021-01-01T09:23:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="setUp" is-config="true" duration-ms="5240" started-at="2021-01-01T09:23:13 IST" finished-at="2021-01-01T09:23:18 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyEditDuplicateAndDetailsOfBoard()[pri:7, instance:QlearlyFeatures@3e14c16d]" name="verifyEditDuplicateAndDetailsOfBoard" duration-ms="796" started-at="2021-01-01T09:23:18 IST" description="Verify the details displayed on the board" finished-at="2021-01-01T09:23:19 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Verified Board: Board1folder1 is created and entry count is 0]]>
+            </line>
+            <line>
+              <![CDATA[Opted for duplication of Board: Board1folder1]]>
+            </line>
+            <line>
+              <![CDATA[Verified after duplication board count is 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEditDuplicateAndDetailsOfBoard -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="closeDriver" is-config="true" duration-ms="203" started-at="2021-01-01T09:23:19 IST" finished-at="2021-01-01T09:23:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="setUp" is-config="true" duration-ms="5200" started-at="2021-01-01T09:23:19 IST" finished-at="2021-01-01T09:23:25 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyColumnCreation()[pri:8, instance:QlearlyFeatures@3e14c16d]" name="verifyColumnCreation" duration-ms="7326" started-at="2021-01-01T09:23:25 IST" description="Verify column creation on qlearly" finished-at="2021-01-01T09:23:32 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Board: Board1folder1 is created]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Board: Board1folder1]]>
+            </line>
+            <line>
+              <![CDATA[Added Bookmark: http://facebook.com]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Bookmark: http://facebook.com and verified]]>
+            </line>
+            <line>
+              <![CDATA[Verified after adding bookmark - entry count is incremented to 1 for Board:Board1folder1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyColumnCreation -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="closeDriver" is-config="true" duration-ms="203" started-at="2021-01-01T09:23:32 IST" finished-at="2021-01-01T09:23:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="setUp" is-config="true" duration-ms="5052" started-at="2021-01-01T09:23:32 IST" finished-at="2021-01-01T09:23:37 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyMultipleBookMarks()[pri:9, instance:QlearlyFeatures@3e14c16d]" name="verifyMultipleBookMarks" duration-ms="14215" started-at="2021-01-01T09:23:37 IST" description="Verify Multiple bookmarks can be added within a board" finished-at="2021-01-01T09:23:51 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Board: Board1folder1 is created]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Board: Board1folder1]]>
+            </line>
+            <line>
+              <![CDATA[Bookmark: http://facebook.com is added]]>
+            </line>
+            <line>
+              <![CDATA[Bookmark: https://www.youtube.com/ is added]]>
+            </line>
+            <line>
+              <![CDATA[Verified after adding multiple bookmarks - entry count is incremented to 2 for Board:Board1folder1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMultipleBookMarks -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="closeDriver" is-config="true" duration-ms="307" started-at="2021-01-01T09:23:51 IST" finished-at="2021-01-01T09:23:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="setUp" is-config="true" duration-ms="5280" started-at="2021-01-01T09:23:52 IST" finished-at="2021-01-01T09:23:57 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Loaded Extension: Qlearly - bookmark manager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyOtherOptionsInBookMarks()[pri:10, instance:QlearlyFeatures@3e14c16d]" name="verifyOtherOptionsInBookMarks" duration-ms="24271" started-at="2021-01-01T09:23:57 IST" description="Verify other options in bookmark" finished-at="2021-01-01T09:24:21 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to Board: Board1folder1]]>
+            </line>
+            <line>
+              <![CDATA[Bookmark: http://facebook.com is added]]>
+            </line>
+            <line>
+              <![CDATA[Bookmark: https://www.youtube.com/ is added]]>
+            </line>
+            <line>
+              <![CDATA[Duplicate Bookmark: http://facebook.com is added]]>
+            </line>
+            <line>
+              <![CDATA[Entry count with duplicates is displayed as 3 for Board: Board1folder1]]>
+            </line>
+            <line>
+              <![CDATA[Performing remove duplicate of bookmarks for Board: Board1folder1]]>
+            </line>
+            <line>
+              <![CDATA[Verified after removing duplicate bookmark - entry count is decremented to 2 for Board:Board1folder1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyOtherOptionsInBookMarks -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:QlearlyFeatures@3e14c16d]" name="closeDriver" is-config="true" duration-ms="289" started-at="2021-01-01T09:24:21 IST" finished-at="2021-01-01T09:24:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- QlearlyFeatures -->
+    </test> <!-- /Users/cb-vinayak/work/selenium/src/test/java/QlearlyFeatures.java -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

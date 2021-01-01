@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">All Test Suite</th></tr>
+<tr><td><a href="#t0">/Users/cb-vinayak/work/selenium/src/test/java/QlearlyFeatures.java</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">136,300</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">/Users/cb-vinayak/work/selenium/src/test/java/QlearlyFeatures.java &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">QlearlyFeatures</td><td><a href="#m0">verifyBoardCanBeShared</a></td><td rowspan="1">1609473152542</td><td rowspan="1">16390</td></tr><tr><th colspan="4">/Users/cb-vinayak/work/selenium/src/test/java/QlearlyFeatures.java &#8212; passed</th></tr><tr class="passedeven"><td rowspan="10">QlearlyFeatures</td><td><a href="#m1">verifyAccountCreation</a></td><td rowspan="1">1609473132040</td><td rowspan="1">14704</td></tr><tr class="passedeven"><td><a href="#m2">verifyAddingFolder</a></td><td rowspan="1">1609473174793</td><td rowspan="1">225</td></tr><tr class="passedeven"><td><a href="#m3">verifyBoardCreation</a></td><td rowspan="1">1609473186508</td><td rowspan="1">470</td></tr><tr class="passedeven"><td><a href="#m4">verifyColumnCreation</a></td><td rowspan="1">1609473205128</td><td rowspan="1">7326</td></tr><tr class="passedeven"><td><a href="#m5">verifyEditDuplicateAndDetailsOfBoard</a></td><td rowspan="1">1609473198928</td><td rowspan="1">796</td></tr><tr class="passedeven"><td><a href="#m6">verifyLandingPage</a></td><td rowspan="1">1609473126128</td><td rowspan="1">203</td></tr><tr class="passedeven"><td><a href="#m7">verifyMultipleBoardCreation</a></td><td rowspan="1">1609473192458</td><td rowspan="1">1034</td></tr><tr class="passedeven"><td><a href="#m8">verifyMultipleBookMarks</a></td><td rowspan="1">1609473217711</td><td rowspan="1">14215</td></tr><tr class="passedeven"><td><a href="#m9">verifyMultipleFoldersCanBeAddedWithDuplicateNames</a></td><td rowspan="1">1609473180600</td><td rowspan="1">409</td></tr><tr class="passedeven"><td><a href="#m10">verifyOtherOptionsInBookMarks</a></td><td rowspan="1">1609473237514</td><td rowspan="1">24271</td></tr></tbody>
+</table>
+<h2>/Users/cb-vinayak/work/selenium/src/test/java/QlearlyFeatures.java</h2><h3 id="m0">QlearlyFeatures#verifyBoardCanBeShared</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: org.openqa.selenium.WebDriverException
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructor0(Class.java:3075)
+	at java.lang.Class.getConstructor(Class.java:1825)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:195)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at POM.QlearlyPage.navigateToBoard(QlearlyPage.java:179)
+	at QlearlyFeatures.verifyBoardCanBeShared(QlearlyFeatures.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">QlearlyFeatures#verifyAccountCreation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Logging in with: Vinayak@mailinator.com<br/>Verified login is not in: Guest Mode</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">QlearlyFeatures#verifyAddingFolder</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Folder: Folder1 created</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">QlearlyFeatures#verifyBoardCreation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Folder: Folder1 created<br/>Board: Board1 added successfully under Folder: Folder1</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">QlearlyFeatures#verifyColumnCreation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Board: Board1folder1 is created<br/>Navigated to Board: Board1folder1<br/>Added Bookmark: http://facebook.com<br/>Navigated to Bookmark: http://facebook.com and verified<br/>Verified after adding bookmark - entry count is incremented to 1 for Board:Board1folder1</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">QlearlyFeatures#verifyEditDuplicateAndDetailsOfBoard</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Verified Board: Board1folder1 is created and entry count is 0<br/>Opted for duplication of Board: Board1folder1<br/>Verified after duplication board count is 2</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">QlearlyFeatures#verifyLandingPage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">On landing page: chrome-extension://aicaflgmmblfaneodjfhkilgplnpjmig/index.html<br/>Verified left panel and supportive links existence<br/>Verified default login is: Guest Mode</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">QlearlyFeatures#verifyMultipleBoardCreation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Board: Board1 added successfully under Folder: Folder1<br/>Total Board count under Folder: Folder1 is 1<br/>Board: Board2 added successfully under Folder: Folder1<br/>Total Board count under Folder: Folder1 is 2<br/>Board: Board1 added successfully under Folder: Folder2<br/>Total Board count under Folder: Folder2 is 1<br/>Multiple boards created successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">QlearlyFeatures#verifyMultipleBookMarks</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Board: Board1folder1 is created<br/>Navigated to Board: Board1folder1<br/>Bookmark: http://facebook.com is added<br/>Bookmark: https://www.youtube.com/ is added<br/>Verified after adding multiple bookmarks - entry count is incremented to 2 for Board:Board1folder1</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">QlearlyFeatures#verifyMultipleFoldersCanBeAddedWithDuplicateNames</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Folder: Folder1 created<br/>Folder: Folder2 created<br/>Multiple folders created: Folder count is 2</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">QlearlyFeatures#verifyOtherOptionsInBookMarks</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Navigated to Board: Board1folder1<br/>Bookmark: http://facebook.com is added<br/>Bookmark: https://www.youtube.com/ is added<br/>Duplicate Bookmark: http://facebook.com is added<br/>Entry count with duplicates is displayed as 3 for Board: Board1folder1<br/>Performing remove duplicate of bookmarks for Board: Board1folder1<br/>Verified after removing duplicate bookmark - entry count is decremented to 2 for Board:Board1folder1</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-All_Test_Suite">
+              <span class="suite-name border-failed">All Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-All_Test_Suite">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-All_Test_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-All_Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-All_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-All_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-All_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-All_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods failed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods failed suite-All_Test_Suite"> (show)</a> <!-- show-methods failed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-All_Test_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="QlearlyFeatures" hash-for-method="verifyBoardCanBeShared">verifyBoardCanBeShared</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-All_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods passed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods passed suite-All_Test_Suite"> (show)</a> <!-- show-methods passed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="QlearlyFeatures" hash-for-method="verifyAccountCreation">verifyAccountCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="QlearlyFeatures" hash-for-method="verifyAddingFolder">verifyAddingFolder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="QlearlyFeatures" hash-for-method="verifyBoardCreation">verifyBoardCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="QlearlyFeatures" hash-for-method="verifyColumnCreation">verifyColumnCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="QlearlyFeatures" hash-for-method="verifyEditDuplicateAndDetailsOfBoard">verifyEditDuplicateAndDetailsOfBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="QlearlyFeatures" hash-for-method="verifyLandingPage">verifyLandingPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="QlearlyFeatures" hash-for-method="verifyMultipleBoardCreation">verifyMultipleBoardCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="QlearlyFeatures" hash-for-method="verifyMultipleBookMarks">verifyMultipleBookMarks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="QlearlyFeatures" hash-for-method="verifyMultipleFoldersCanBeAddedWithDuplicateNames">verifyMultipleFoldersCanBeAddedWithDuplicateNames</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="QlearlyFeatures" hash-for-method="verifyOtherOptionsInBookMarks">verifyOtherOptionsInBookMarks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
+          <div class="suite-All_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">QlearlyFeatures</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBoardCanBeShared">
+                  </a> <!-- verifyBoardCanBeShared -->
+                  <span class="method-name">verifyBoardCanBeShared</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: org.openqa.selenium.WebDriverException
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructor0(Class.java:3075)
+	at java.lang.Class.getConstructor(Class.java:1825)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:195)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at POM.QlearlyPage.navigateToBoard(QlearlyPage.java:179)
+	at QlearlyFeatures.verifyBoardCanBeShared(QlearlyFeatures.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Verify board can be shared in public)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-failed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">QlearlyFeatures</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountCreation">
+                  </a> <!-- verifyAccountCreation -->
+                  <span class="method-name">verifyAccountCreation</span>
+                  <em>
+(Verify creation of account)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddingFolder">
+                  </a> <!-- verifyAddingFolder -->
+                  <span class="method-name">verifyAddingFolder</span>
+                  <em>
+(Verify folder creation on qlearly)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBoardCreation">
+                  </a> <!-- verifyBoardCreation -->
+                  <span class="method-name">verifyBoardCreation</span>
+                  <em>
+(Verify board creation on qlearly)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyColumnCreation">
+                  </a> <!-- verifyColumnCreation -->
+                  <span class="method-name">verifyColumnCreation</span>
+                  <em>
+(Verify column creation on qlearly)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEditDuplicateAndDetailsOfBoard">
+                  </a> <!-- verifyEditDuplicateAndDetailsOfBoard -->
+                  <span class="method-name">verifyEditDuplicateAndDetailsOfBoard</span>
+                  <em>
+(Verify the details displayed on the board)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLandingPage">
+                  </a> <!-- verifyLandingPage -->
+                  <span class="method-name">verifyLandingPage</span>
+                  <em>
+(Verify the options on the landing page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMultipleBoardCreation">
+                  </a> <!-- verifyMultipleBoardCreation -->
+                  <span class="method-name">verifyMultipleBoardCreation</span>
+                  <em>
+(Verify multiple board creation under different folders)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMultipleBookMarks">
+                  </a> <!-- verifyMultipleBookMarks -->
+                  <span class="method-name">verifyMultipleBookMarks</span>
+                  <em>
+(Verify Multiple bookmarks can be added within a board)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMultipleFoldersCanBeAddedWithDuplicateNames">
+                  </a> <!-- verifyMultipleFoldersCanBeAddedWithDuplicateNames -->
+                  <span class="method-name">verifyMultipleFoldersCanBeAddedWithDuplicateNames</span>
+                  <em>
+(Verify multiple folder creation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOtherOptionsInBookMarks">
+                  </a> <!-- verifyOtherOptionsInBookMarks -->
+                  <span class="method-name">verifyOtherOptionsInBookMarks</span>
+                  <em>
+(Verify other options in bookmark)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+        </div> <!-- panel All_Test_Suite -->
+        <div panel-name="test-xml-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/cb-vinayak/oslash/selenium/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;All Test Suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;2&quot; name=&quot;/Users/cb-vinayak/work/selenium/src/test/java/QlearlyFeatures.java&quot; parallel=&quot;classes&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;QlearlyFeatures&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- /Users/cb-vinayak/work/selenium/src/test/java/QlearlyFeatures.java --&gt;
+&lt;/suite&gt; &lt;!-- All Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">/Users/cb-vinayak/work/selenium/src/test/java/QlearlyFeatures.java (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Test_Suite');
+function tableData_All_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyOtherOptionsInBookMarks')
+data.setCell(0, 2, 'QlearlyFeatures')
+data.setCell(0, 3, 24271);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyBoardCanBeShared')
+data.setCell(1, 2, 'QlearlyFeatures')
+data.setCell(1, 3, 16390);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyAccountCreation')
+data.setCell(2, 2, 'QlearlyFeatures')
+data.setCell(2, 3, 14704);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyMultipleBookMarks')
+data.setCell(3, 2, 'QlearlyFeatures')
+data.setCell(3, 3, 14215);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyColumnCreation')
+data.setCell(4, 2, 'QlearlyFeatures')
+data.setCell(4, 3, 7326);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyMultipleBoardCreation')
+data.setCell(5, 2, 'QlearlyFeatures')
+data.setCell(5, 3, 1034);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyEditDuplicateAndDetailsOfBoard')
+data.setCell(6, 2, 'QlearlyFeatures')
+data.setCell(6, 3, 796);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyBoardCreation')
+data.setCell(7, 2, 'QlearlyFeatures')
+data.setCell(7, 3, 470);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyMultipleFoldersCanBeAddedWithDuplicateNames')
+data.setCell(8, 2, 'QlearlyFeatures')
+data.setCell(8, 3, 409);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyAddingFolder')
+data.setCell(9, 2, 'QlearlyFeatures')
+data.setCell(9, 3, 225);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyLandingPage')
+data.setCell(10, 2, 'QlearlyFeatures')
+data.setCell(10, 3, 203);
+window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-All_Test_Suite">
+              </div> <!-- times-div-All_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyMultipleBoardCreation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Board: Board1 added successfully under Folder: Folder1</span>
+                <span class="reporter-method-output">Total Board count under Folder: Folder1 is 1</span>
+                <span class="reporter-method-output">Board: Board2 added successfully under Folder: Folder1</span>
+                <span class="reporter-method-output">Total Board count under Folder: Folder1 is 2</span>
+                <span class="reporter-method-output">Board: Board1 added successfully under Folder: Folder2</span>
+                <span class="reporter-method-output">Total Board count under Folder: Folder2 is 1</span>
+                <span class="reporter-method-output">Multiple boards created successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLandingPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">On landing page: chrome-extension://aicaflgmmblfaneodjfhkilgplnpjmig/index.html</span>
+                <span class="reporter-method-output">Verified left panel and supportive links existence</span>
+                <span class="reporter-method-output">Verified default login is: Guest Mode</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyOtherOptionsInBookMarks</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Navigated to Board: Board1folder1</span>
+                <span class="reporter-method-output">Bookmark: http://facebook.com is added</span>
+                <span class="reporter-method-output">Bookmark: https://www.youtube.com/ is added</span>
+                <span class="reporter-method-output">Duplicate Bookmark: http://facebook.com is added</span>
+                <span class="reporter-method-output">Entry count with duplicates is displayed as 3 for Board: Board1folder1</span>
+                <span class="reporter-method-output">Performing remove duplicate of bookmarks for Board: Board1folder1</span>
+                <span class="reporter-method-output">Verified after removing duplicate bookmark - entry count is decremented to 2 for Board:Board1folder1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAddingFolder</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Folder: Folder1 created</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyBoardCreation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Folder: Folder1 created</span>
+                <span class="reporter-method-output">Board: Board1 added successfully under Folder: Folder1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAccountCreation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Logging in with: Vinayak@mailinator.com</span>
+                <span class="reporter-method-output">Verified login is not in: Guest Mode</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyMultipleFoldersCanBeAddedWithDuplicateNames</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Folder: Folder1 created</span>
+                <span class="reporter-method-output">Folder: Folder2 created</span>
+                <span class="reporter-method-output">Multiple folders created: Folder count is 2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyColumnCreation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Board: Board1folder1 is created</span>
+                <span class="reporter-method-output">Navigated to Board: Board1folder1</span>
+                <span class="reporter-method-output">Added Bookmark: http://facebook.com</span>
+                <span class="reporter-method-output">Navigated to Bookmark: http://facebook.com and verified</span>
+                <span class="reporter-method-output">Verified after adding bookmark - entry count is incremented to 1 for Board:Board1folder1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyMultipleBookMarks</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Board: Board1folder1 is created</span>
+                <span class="reporter-method-output">Navigated to Board: Board1folder1</span>
+                <span class="reporter-method-output">Bookmark: http://facebook.com is added</span>
+                <span class="reporter-method-output">Bookmark: https://www.youtube.com/ is added</span>
+                <span class="reporter-method-output">Verified after adding multiple bookmarks - entry count is incremented to 2 for Board:Board1folder1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyEditDuplicateAndDetailsOfBoard</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verified Board: Board1folder1 is created and entry count is 0</span>
+                <span class="reporter-method-output">Opted for duplication of Board: Board1folder1</span>
+                <span class="reporter-method-output">Verified after duplication board count is 2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">QlearlyFeatures</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLandingPage</span>
+                <span class="method-start">318 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">523 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">783 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountCreation</span>
+                <span class="method-start">6230 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">20934 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">21210 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyBoardCanBeShared</span>
+                <span class="method-start">26732 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">43130 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">43403 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddingFolder</span>
+                <span class="method-start">48983 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">49208 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">49430 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyMultipleFoldersCanBeAddedWithDuplicateNames</span>
+                <span class="method-start">54790 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">55200 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">55412 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBoardCreation</span>
+                <span class="method-start">60698 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">61168 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">61378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyMultipleBoardCreation</span>
+                <span class="method-start">66648 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">67682 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">67878 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEditDuplicateAndDetailsOfBoard</span>
+                <span class="method-start">73118 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">73914 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">74118 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyColumnCreation</span>
+                <span class="method-start">79318 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">86645 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">86849 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyMultipleBookMarks</span>
+                <span class="method-start">91901 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">106116 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">106423 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyOtherOptionsInBookMarks</span>
+                <span class="method-start">111704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">135975 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

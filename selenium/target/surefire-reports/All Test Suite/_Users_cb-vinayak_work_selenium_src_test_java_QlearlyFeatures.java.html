@@ -1,0 +1,305 @@
+<html>
+<head>
+<title>TestNG:  /Users/cb-vinayak/work/selenium/src/test/java/QlearlyFeatures.java</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>/Users/cb-vinayak/work/selenium/src/test/java/QlearlyFeatures.java</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jan 01 09:22:05 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>136 seconds (136300 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='QlearlyFeatures.verifyBoardCanBeShared()'><b>verifyBoardCanBeShared</b><br>Test class: QlearlyFeatures<br>Test method: Verify board can be shared in public</td>
+<td><div><pre>java.lang.NoClassDefFoundError: org.openqa.selenium.WebDriverException
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructor0(Class.java:3075)
+	at java.lang.Class.getConstructor(Class.java:1825)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:195)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at POM.QlearlyPage.navigateToBoard(QlearlyPage.java:179)
+	at QlearlyFeatures.verifyBoardCanBeShared(QlearlyFeatures.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div><a href='#' onClick='toggleBox("stack-trace492559663", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace492559663'><pre>java.lang.NoClassDefFoundError: org.openqa.selenium.WebDriverException
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructor0(Class.java:3075)
+	at java.lang.Class.getConstructor(Class.java:1825)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:195)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at POM.QlearlyPage.navigateToBoard(QlearlyPage.java:179)
+	at QlearlyFeatures.verifyBoardCanBeShared(QlearlyFeatures.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>16</td>
+<td>QlearlyFeatures@3e14c16d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='QlearlyFeatures.verifyAccountCreation()'><b>verifyAccountCreation</b><br>Test class: QlearlyFeatures<br>Test method: Verify creation of account<br/>
+<a href="#Output-990660903" onClick='toggleBox("Output-990660903", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-990660903" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-990660903">
+Logging in with: Vinayak@mailinator.com<br/>
+Verified login is not in: Guest Mode<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>QlearlyFeatures@3e14c16d</td></tr>
+<tr>
+<td title='QlearlyFeatures.verifyAddingFolder()'><b>verifyAddingFolder</b><br>Test class: QlearlyFeatures<br>Test method: Verify folder creation on qlearly<br/>
+<a href="#Output-815709396" onClick='toggleBox("Output-815709396", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-815709396" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-815709396">
+Folder: Folder1 created<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>QlearlyFeatures@3e14c16d</td></tr>
+<tr>
+<td title='QlearlyFeatures.verifyBoardCreation()'><b>verifyBoardCreation</b><br>Test class: QlearlyFeatures<br>Test method: Verify board creation on qlearly<br/>
+<a href="#Output-2037415866" onClick='toggleBox("Output-2037415866", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2037415866" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2037415866">
+Folder: Folder1 created<br/>
+Board: Board1 added successfully under Folder: Folder1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>QlearlyFeatures@3e14c16d</td></tr>
+<tr>
+<td title='QlearlyFeatures.verifyColumnCreation()'><b>verifyColumnCreation</b><br>Test class: QlearlyFeatures<br>Test method: Verify column creation on qlearly<br/>
+<a href="#Output-1049269046" onClick='toggleBox("Output-1049269046", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1049269046" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1049269046">
+Board: Board1folder1 is created<br/>
+Navigated to Board: Board1folder1<br/>
+Added Bookmark: http://facebook.com<br/>
+Navigated to Bookmark: http://facebook.com and verified<br/>
+Verified after adding bookmark - entry count is incremented to 1 for Board:Board1folder1<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>QlearlyFeatures@3e14c16d</td></tr>
+<tr>
+<td title='QlearlyFeatures.verifyEditDuplicateAndDetailsOfBoard()'><b>verifyEditDuplicateAndDetailsOfBoard</b><br>Test class: QlearlyFeatures<br>Test method: Verify the details displayed on the board<br/>
+<a href="#Output-605480523" onClick='toggleBox("Output-605480523", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-605480523" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-605480523">
+Verified Board: Board1folder1 is created and entry count is 0<br/>
+Opted for duplication of Board: Board1folder1<br/>
+Verified after duplication board count is 2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>QlearlyFeatures@3e14c16d</td></tr>
+<tr>
+<td title='QlearlyFeatures.verifyLandingPage()'><b>verifyLandingPage</b><br>Test class: QlearlyFeatures<br>Test method: Verify the options on the landing page<br/>
+<a href="#Output-870457156" onClick='toggleBox("Output-870457156", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-870457156" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-870457156">
+On landing page: chrome-extension://aicaflgmmblfaneodjfhkilgplnpjmig/index.html<br/>
+Verified left panel and supportive links existence<br/>
+Verified default login is: Guest Mode<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>QlearlyFeatures@3e14c16d</td></tr>
+<tr>
+<td title='QlearlyFeatures.verifyMultipleBoardCreation()'><b>verifyMultipleBoardCreation</b><br>Test class: QlearlyFeatures<br>Test method: Verify multiple board creation under different folders<br/>
+<a href="#Output-2116159888" onClick='toggleBox("Output-2116159888", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2116159888" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2116159888">
+Board: Board1 added successfully under Folder: Folder1<br/>
+Total Board count under Folder: Folder1 is 1<br/>
+Board: Board2 added successfully under Folder: Folder1<br/>
+Total Board count under Folder: Folder1 is 2<br/>
+Board: Board1 added successfully under Folder: Folder2<br/>
+Total Board count under Folder: Folder2 is 1<br/>
+Multiple boards created successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>QlearlyFeatures@3e14c16d</td></tr>
+<tr>
+<td title='QlearlyFeatures.verifyMultipleBookMarks()'><b>verifyMultipleBookMarks</b><br>Test class: QlearlyFeatures<br>Test method: Verify Multiple bookmarks can be added within a board<br/>
+<a href="#Output-1716744591" onClick='toggleBox("Output-1716744591", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1716744591" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1716744591">
+Board: Board1folder1 is created<br/>
+Navigated to Board: Board1folder1<br/>
+Bookmark: http://facebook.com is added<br/>
+Bookmark: https://www.youtube.com/ is added<br/>
+Verified after adding multiple bookmarks - entry count is incremented to 2 for Board:Board1folder1<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>QlearlyFeatures@3e14c16d</td></tr>
+<tr>
+<td title='QlearlyFeatures.verifyMultipleFoldersCanBeAddedWithDuplicateNames()'><b>verifyMultipleFoldersCanBeAddedWithDuplicateNames</b><br>Test class: QlearlyFeatures<br>Test method: Verify multiple folder creation<br/>
+<a href="#Output-1728814688" onClick='toggleBox("Output-1728814688", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1728814688" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1728814688">
+Folder: Folder1 created<br/>
+Folder: Folder2 created<br/>
+Multiple folders created: Folder count is 2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>QlearlyFeatures@3e14c16d</td></tr>
+<tr>
+<td title='QlearlyFeatures.verifyOtherOptionsInBookMarks()'><b>verifyOtherOptionsInBookMarks</b><br>Test class: QlearlyFeatures<br>Test method: Verify other options in bookmark<br/>
+<a href="#Output-1328107295" onClick='toggleBox("Output-1328107295", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1328107295" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1328107295">
+Navigated to Board: Board1folder1<br/>
+Bookmark: http://facebook.com is added<br/>
+Bookmark: https://www.youtube.com/ is added<br/>
+Duplicate Bookmark: http://facebook.com is added<br/>
+Entry count with duplicates is displayed as 3 for Board: Board1folder1<br/>
+Performing remove duplicate of bookmarks for Board: Board1folder1<br/>
+Verified after removing duplicate bookmark - entry count is decremented to 2 for Board:Board1folder1<br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>QlearlyFeatures@3e14c16d</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,5 +1,8 @@
 package Utilities;
 import org.apache.commons.io.FileUtils;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -9,23 +12,24 @@ import org.testng.ITestResult ;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import sun.util.calendar.BaseCalendar;
-
 import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.*;
+
 
 public class ListenerTest implements ITestListener
     {
         public WebDriver driver;
+        public aws s3;
 
         @AfterSuite
         public void onFinish(ITestContext arg0) {
-            // TODO Auto-generated method stub
-           driver =  Utilities.getDriver();
-           driver.close();
-
+           //driver.close();
         }
 
         @BeforeSuite
@@ -44,8 +48,7 @@ public class ListenerTest implements ITestListener
         @Override
         public void onTestFailure(ITestResult arg0) {
             try{
-
-                takeScreenShot(Utilities.getDriver(),arg0.getName());
+                takeScreenShot(driver,arg0.getMethod().getMethodName());
                 // TODO Auto-generated method stub
             }
           catch(Exception e){

@@ -172,10 +172,7 @@ public class BookFlightPage extends Utilities {
         Utilities.Select(driver.findElement(By.id(element)),option);
     }
 
-    public void writeToExcel(String file,int sheet, String amount) throws InterruptedException, IOException, InvalidFormatException {
-        Utilities.excelWrite(Utilities.dirPath+file,sheet,amount);
-        Utilities.htmlReport(Utilities.dirPath+file,sheet);
-    }
+
 
 
 }

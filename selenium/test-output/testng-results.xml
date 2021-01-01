@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Logged in to ClearTrip.com]]>
+    </line>
+    <line>
+      <![CDATA[Flight booked for: 18/07/2020From: Bangalore, IN - Kempegowda International Airport (BLR) to Hyderabad, IN - Rajiv Gandhi International (HYD)]]>
+    </line>
+    <line>
+      <![CDATA[Travellers 1 Adult + 1 Child]]>
+    </line>
+    <line>
+      <![CDATA[Booking Non-Stop Flight with the lowest price₹ 11,288]]>
+    </line>
+    <line>
+      <![CDATA[Booked!!! Enjoy surprising your wife - Raj:)]]>
+    </line>
+    <line>
+      <![CDATA[Expense Report is at ../resources/HybdExpenses_files/sheet001.html]]>
+    </line>
+    <line>
+      <![CDATA[Logged in to ClearTrip.com]]>
+    </line>
+    <line>
+      <![CDATA[Flight booked for: 19/07/2020From: Hyderabad, IN - Rajiv Gandhi International (HYD) to Bangalore, IN - Kempegowda International Airport (BLR)]]>
+    </line>
+    <line>
+      <![CDATA[Travellers 2 Adult(s)]]>
+    </line>
+    <line>
+      <![CDATA[Booking Non-Stop Flight with the lowest price11518]]>
+    </line>
+    <line>
+      <![CDATA[Enjoy returning back to your native]]>
+    </line>
+    <line>
+      <![CDATA[Expense Report is at ../resources/HybdExpenses_files/sheet002.html]]>
+    </line>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="69188" started-at="2020-07-04T11:04:37 IST" finished-at="2020-07-04T11:05:46 IST">
+    <groups>
+    </groups>
+    <test name="/Users/cb-vinayak/work/selenium/src/test/java/BirthdaySurprises.java" duration-ms="69188" started-at="2020-07-04T11:04:37 IST" finished-at="2020-07-04T11:05:46 IST">
+      <class name="BirthdaySurprise">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:BirthdaySurprise@73173f63]" name="setUp" is-config="true" duration-ms="12" started-at="2020-07-04T11:04:37 IST" finished-at="2020-07-04T11:04:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="willTheSurpriseWork()[pri:0, instance:BirthdaySurprise@73173f63]" name="willTheSurpriseWork" duration-ms="24849" started-at="2020-07-04T11:04:37 IST" description="Raj books flight tickets to surprise his wife" finished-at="2020-07-04T11:05:02 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in to ClearTrip.com]]>
+            </line>
+            <line>
+              <![CDATA[Flight booked for: 18/07/2020From: Bangalore, IN - Kempegowda International Airport (BLR) to Hyderabad, IN - Rajiv Gandhi International (HYD)]]>
+            </line>
+            <line>
+              <![CDATA[Travellers 1 Adult + 1 Child]]>
+            </line>
+            <line>
+              <![CDATA[Booking Non-Stop Flight with the lowest price₹ 11,288]]>
+            </line>
+            <line>
+              <![CDATA[Booked!!! Enjoy surprising your wife - Raj:)]]>
+            </line>
+            <line>
+              <![CDATA[Expense Report is at ../resources/HybdExpenses_files/sheet001.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- willTheSurpriseWork -->
+        <test-method status="PASS" signature="setUpClose()[pri:0, instance:BirthdaySurprise@73173f63]" name="setUpClose" is-config="true" duration-ms="2167" started-at="2020-07-04T11:05:02 IST" finished-at="2020-07-04T11:05:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClose -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:BirthdaySurprise@73173f63]" name="setUp" is-config="true" duration-ms="2" started-at="2020-07-04T11:05:04 IST" finished-at="2020-07-04T11:05:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="surpriseEndsHappily()[pri:1, instance:BirthdaySurprise@73173f63]" name="surpriseEndsHappily" duration-ms="39928" started-at="2020-07-04T11:05:04 IST" description="Surprise ends and the couple return back" finished-at="2020-07-04T11:05:44 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in to ClearTrip.com]]>
+            </line>
+            <line>
+              <![CDATA[Flight booked for: 19/07/2020From: Hyderabad, IN - Rajiv Gandhi International (HYD) to Bangalore, IN - Kempegowda International Airport (BLR)]]>
+            </line>
+            <line>
+              <![CDATA[Travellers 2 Adult(s)]]>
+            </line>
+            <line>
+              <![CDATA[Booking Non-Stop Flight with the lowest price11518]]>
+            </line>
+            <line>
+              <![CDATA[Enjoy returning back to your native]]>
+            </line>
+            <line>
+              <![CDATA[Expense Report is at ../resources/HybdExpenses_files/sheet002.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- surpriseEndsHappily -->
+        <test-method status="PASS" signature="setUpClose()[pri:0, instance:BirthdaySurprise@73173f63]" name="setUpClose" is-config="true" duration-ms="2188" started-at="2020-07-04T11:05:44 IST" finished-at="2020-07-04T11:05:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClose -->
+      </class> <!-- BirthdaySurprise -->
+    </test> <!-- /Users/cb-vinayak/work/selenium/src/test/java/BirthdaySurprises.java -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

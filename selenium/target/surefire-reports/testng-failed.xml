@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
+  <test thread-count="1" verbose="0" name="/Users/cb-vinayak/work/selenium/src/test/java/QlearlyFeatures.java(failed)" parallel="classes">
+    <classes>
+      <class name="QlearlyFeatures">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="verifyBoardCanBeShared"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- QlearlyFeatures -->
+    </classes>
+  </test> <!-- /Users/cb-vinayak/work/selenium/src/test/java/QlearlyFeatures.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
